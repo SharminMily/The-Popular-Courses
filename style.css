@@ -2,3 +2,10 @@ body{
     
     font-family: 'El Messiri', sans-serif;
 }
+   /* background-image: url("IMAGE_URL"), linear-gradient(#2e2a2d, #0a0303);  */
+   .carousel-inner{
+	max-height: 600px;
+}
+.courses-deatils{
+	max-width: 32rem;
+}
