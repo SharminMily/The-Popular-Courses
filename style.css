@@ -3,9 +3,27 @@ body{
     font-family: 'El Messiri', sans-serif;
 }
    /* background-image: url("IMAGE_URL"), linear-gradient(#2e2a2d, #0a0303);  */
-   .carousel-inner{
-	max-height: 600px;
+   .carousel-item {
+	height: 40rem;
+	background-color: #777;
+	position: relative;
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
 }
+   
+   .carousel-item::before{
+	content: "";
+	position: absolute;
+	background-color: black;
+	opacity: .5;
+	border-radius: 10px;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}   
 .courses-deatils{
 	max-width: 32rem;
 }
